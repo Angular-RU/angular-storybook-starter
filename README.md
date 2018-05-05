@@ -13,7 +13,7 @@ To start storybook `ng run storybook`.
 - [ ] events - Interactively fire events to components that respond to EventEmitter
 - [ ] graphql - Query a GraphQL server within Storybook stories
 - [ ] info - Annotate stories with extra component usage information
-- [ ] jest - View the results of components' unit tests in Storybook
+- [x] jest - View the results of components' unit tests in Storybook
 - [x] knobs - Interactively edit component prop data in the Storybook UI
 - [ ] links - Create links between stories
 - [ ] notes - Annotate Storybook stories with notes

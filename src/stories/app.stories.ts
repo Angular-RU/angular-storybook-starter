@@ -1,10 +1,12 @@
 import { storiesOf } from '@storybook/angular';
 import { withKnobs, text } from '@storybook/addon-knobs/angular';
+import { wTests } from '../../.storybook/withTests';
 import { action } from '@storybook/addon-actions';
 import { moduleMetadata } from '@storybook/angular';
 import { AppComponent } from '../app/app.component';
 
 storiesOf('My App', module)
+  .addDecorator(wTests('app.component'))
   .addDecorator(withKnobs)
   .addDecorator(
     moduleMetadata({
