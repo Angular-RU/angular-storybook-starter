@@ -15,8 +15,8 @@ To start storybook `ng run storybook`.
 - [ ] info - Annotate stories with extra component usage information
 - [x] jest - View the results of components' unit tests in Storybook
 - [x] knobs - Interactively edit component prop data in the Storybook UI
-- [ ] links - Create links between stories
-- [ ] notes - Annotate Storybook stories with notes
+- [x] links - Create links between stories
+- [x] notes - Annotate Storybook stories with notes
 - [x] options - Customize the Storybook UI in code
 - [ ] storyshots - Easy snapshot testing for components in Storybook
 - [x] storysource - View the code of your stories within the Storybook UI

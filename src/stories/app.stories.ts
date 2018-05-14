@@ -6,8 +6,6 @@ import { moduleMetadata } from '@storybook/angular';
 import { AppComponent } from '../app/app.component';
 
 storiesOf('My App', module)
-  .addDecorator(wTests('app.component'))
-  .addDecorator(withKnobs)
   .addDecorator(
     moduleMetadata({
       declarations: [AppComponent]

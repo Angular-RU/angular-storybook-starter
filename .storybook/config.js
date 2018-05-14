@@ -5,6 +5,7 @@ import { setOptions } from '@storybook/addon-options';
 setOptions({
   name: 'Demo Storybook',
   url: '#',
+  hierarchyRootSeparator: /\|/,
 });
 
 function loadStories() {
