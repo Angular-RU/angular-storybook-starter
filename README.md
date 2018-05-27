@@ -8,8 +8,8 @@ To start storybook `ng run storybook`.
 
 - [ ] a11y - Test components for user accessibility in Storybook
 - [x] actions - Log actions as users interact with components in the Storybook UI
-- [ ] background - Let users choose backgrounds in the Storybook UI
-- [ ] centered - Center the alignment of your components within the Storybook UI
+- [x] background - Let users choose backgrounds in the Storybook UI
+- [x] centered - Center the alignment of your components within the Storybook UI
 - [ ] events - Interactively fire events to components that respond to EventEmitter
 - [ ] graphql - Query a GraphQL server within Storybook stories
 - [ ] info - Annotate stories with extra component usage information
