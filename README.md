@@ -1,8 +1,8 @@
 # NgStorybook
 
-An example Angular CLI app with storybook 3.4 and plugins configured and ready to be used.
+An example Angular CLI app with storybook 4.0.0-alpha.7 and plugins configured and ready to be used.
 
-To start storybook `ng run storybook`.
+To start storybook `npm run storybook`.
 
 ## Roadmap for Plugins
 
