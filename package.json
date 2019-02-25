@@ -68,6 +68,8 @@
       "/jest-config/",
       "/node_modules/"
     ],
-    "setupTestFrameworkScriptFile": "./jest-config/setup.ts"
+    "setupFilesAfterEnv": [
+      "./jest-config/setup.ts"
+    ]
   }
 }
